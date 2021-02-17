@@ -1,0 +1,19 @@
+@import 'reset';
+@import 'fonts';
+@import 'variables';
+
+body {
+  font-family: $font-worksans-regular, sans-serif;
+  color: $color-black;
+}
+
+a {
+  color: inherit;
+}
+
+.container {
+  max-width: 77.5rem;
+  width: 100%;
+  margin: 0 auto;
+  pad: 0 0.75rem;
+}

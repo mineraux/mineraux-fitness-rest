@@ -1,7 +1,7 @@
 # API
-
 /api/node_modules
 /api/nodemon.json
+
 # ssl
 /api/server.cert
 /api/server.key
@@ -19,7 +19,7 @@ client/coverage
 client/build
 
 # misc
-client/.DS_Store
+.DS_Store
 client/.env.local
 client/.env.development.local
 client/.env.test.local

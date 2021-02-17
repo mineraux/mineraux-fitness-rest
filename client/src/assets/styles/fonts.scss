@@ -1,0 +1,32 @@
+@import 'variables';
+
+// ROBOTO
+@font-face {
+  font-family: $font-roboto-regular;
+  src: url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: $font-weight-regular;
+}
+
+// WORKSANS
+@font-face {
+  font-family: $font-worksans-regular;
+  src: url('../fonts/WorkSans/WorkSans-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: $font-weight-regular;
+}
+
+@font-face {
+  font-family: $font-worksans-semibold;
+  src: url('../fonts/WorkSans/WorkSans-SemiBold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: $font-weight-semibold;
+}
+
+@font-face {
+  font-family: $font-worksans-bold;
+  src: url('../fonts/WorkSans/WorkSans-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: $font-weight-bold;
+}
+

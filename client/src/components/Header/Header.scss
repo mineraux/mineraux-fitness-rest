@@ -1,0 +1,51 @@
+@import '../../assets/styles/variables';
+
+header {
+  font-size: $font-size-regular;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+
+  .logo {
+    font-family: $font-worksans-semibold, sans-serif;
+    font-size: $font-size-regular;
+    margin-right: 3rem;
+  }
+
+  nav {
+    ul {
+      display: flex;
+
+      li {
+        position: relative;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 2rem;
+        padding: 0 .5rem;
+        font-size: $font-size-medium;
+        font-family: $font-worksans-regular, sans-serif;
+
+        &:hover {
+          color: $color-blue;
+        }
+
+        &.active {
+          pointer-events: none;
+
+          &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -3px;
+            width: 100%;
+            background-color: $color-light-blue;
+            height: 3px;
+          }
+        }
+      }
+    }
+  }
+}
+
